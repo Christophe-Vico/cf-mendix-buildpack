@@ -93,7 +93,7 @@ def get_loglevels(env=os.environ):
 
 def run(m2ee):
     # Redirect logs
-    _redirect_logs()
+    #_redirect_logs()
 
     # Start the logging heartbeat
     logging_interval = os.getenv("METRICS_LOGGING_HEARTBEAT_INTERVAL", str(3600))
